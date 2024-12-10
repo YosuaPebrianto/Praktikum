@@ -1,18 +1,8 @@
 import 'package:flutter/material.dart';
-import 'studikasus01.dart';
+import 'contoh2210020125.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(Contoh)
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'pertemuan 01',
-      home: Studikasus01(),
-    );
-  }
-}
