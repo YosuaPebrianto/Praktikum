@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
-import 'contoh2210020125.dart';
+import 'image04.dart';
 
 void main() {
-  runApp(Contoh)
+  runApp(const MyApp());
 }
 
-
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      title: 'Praktikum03',
+      home: Imaga04(),
+    );
+  }
+}
